@@ -26,6 +26,10 @@ application {
     mainClass = 'demo.App'
 }
 
+run {
+    standardInput = System.in
+}
+
 test {
     useJUnitPlatform()
 }
